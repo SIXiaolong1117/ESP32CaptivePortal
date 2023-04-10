@@ -4,6 +4,10 @@
 
 > 什么是强制门户？查看：[Captive portal - Wikipedia](https://en.wikipedia.org/wiki/Captive_portal)
 
+因为 ESP-IDF 弃用/修改了大量内容，此前的代码已经无法正常编译烧录，他们被转移到了 [Legacy](./Legacy) 目录。
+
+新版代码可以在 ESP-IDF 5.0 版本下编译烧录，并正常运行。
+
 ## 项目原理
 
 已发布到本人的个人博客：[使用ESP32C3开发板实现一个强制门户（Captive Portal） | 薛定谔的第四旋臂 (direct5dom.github.io)](https://direct5dom.github.io/2023/02/06/使用ESP32C3开发板实现一个强制门户（Captive-Portal）/)
